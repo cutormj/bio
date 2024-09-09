@@ -9,6 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@nextui-org/button": "^2.0.37",
+    "@nextui-org/card": "^2.0.33",
+    "@nextui-org/image": "^2.0.31",
+    "@nextui-org/navbar": "^2.0.36",
+    "@nextui-org/react": "^2.4.6",
+    "@nextui-org/system": "^2.2.5",
+    "@nextui-org/theme": "^2.2.9",
+    "framer-motion": "^11.5.4",
     "mongodb": "^6.8.0",
     "mongoose": "^8.6.0",
     "next": "14.2.7",
