@@ -13,13 +13,12 @@ async function page({params}: {params: {id: string}}) {
   return (
     <section className="text-gray-600 body-font">
       <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-        <div className="grid place-items-center lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+        <div className="grid place-items-center lg:max-w-lg lg:w-full md:w-1/2 w-1/3 mb-10 md:mb-0">
           {/* <img className="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600"> */}
           <Image
               width={300}
               alt="NextUI hero Image"
               src={user.image}
-              
             />
         </div>
         <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
