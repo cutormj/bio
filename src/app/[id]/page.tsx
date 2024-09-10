@@ -3,6 +3,7 @@ import { getUserByUsername, getUsers } from "@/actions/user-action"
 import HomeHero from "@/components/(logged-in)/HomeHero";
 
 import React from 'react'
+import HomeNavBar from "@/components/(logged-in)/HomeNavBar";
 
 async function page({params}: {params: {id: string}}) {
 
@@ -11,6 +12,7 @@ async function page({params}: {params: {id: string}}) {
   return (
     <div className="theme-maink">
       <div className="bg-bgPrimary">
+        {/* <HomeNavBar user={user}/> */}
         <HomeHero />
       </div>
     </div>

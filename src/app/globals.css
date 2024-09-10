@@ -46,10 +46,10 @@ body {
 }
 
 .theme-cool {
-  --color-primary: #6482AD;
-  --color-secondary: #7FA1C3;
+  --color-primary: #436da8;
+  --color-secondary: #5f85ac;
   --color-text-base:  #c3ccd8;
-  --color-bg-primary:  #ffffff;
+  --color-bg-primary:  #a7adc5;
 }
 
 .theme-fire {
