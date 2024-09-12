@@ -20,7 +20,7 @@ const HomePage = async () => {
     }
 
     return (
-        <div className="grid grid-cols-12 grid-rows-8 gap-0">
+        <div className="theme-mint grid grid-cols-12 grid-rows-8 gap-0">
             <div className="col-span-12">
                 <NavBar user={navUser}/>
             </div>
