@@ -5,6 +5,7 @@ import SampleHero from "@/components/SampleHero";
 
 import React from 'react'
 import HomeNavBar from "@/components/(logged-in)/HomeNavBar";
+import ProductsCarousel from "@/components/products/products";
 
 async function page({params}: {params: {id: string}}) {
 
@@ -15,6 +16,7 @@ async function page({params}: {params: {id: string}}) {
       <div className="bg-bgPrimary">
         {/* <HomeNavBar user={user}/> */}
         <UserHero />
+        <ProductsCarousel />
       </div>
     </div>
   )
