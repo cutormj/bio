@@ -25,7 +25,7 @@ export function ProductsCarousel() {
       <Carousel opts={{ align: "start", }} className="w-full h-full max-w-lg">
         <CarouselContent>
           {images.map((image, index) => (
-            <CarouselItem key={index} className="w-96 basis-1/1 md:basis-1/3 lg:basis-1/4">
+            <CarouselItem key={index} className="w-52 basis-1/1 md:basis-1/3 lg:basis-1/4">
               <div className="p-1">
                 <Card className="">
                   <CardContent className="flex py-3 aspect-square items-center justify-center ">
