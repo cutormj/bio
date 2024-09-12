@@ -21,12 +21,12 @@ const images = [
 
 export function ProductsCarousel() {
   return (
-    <div className="grid place-items-center h-full">
-      <Carousel opts={{ align: "start", }} className="w-52 md:w-full lg:w-full h-full max-w-lg">
+    <div className="grid place-items-center h-full bg-white">
+      <Carousel opts={{ align: "start", }} className="bg-black px-2 w-52 md:w-full lg:w-full h-full max-w-lg">
         <CarouselContent>
           {images.map((image, index) => (
             <CarouselItem key={index} className="w-52 basis-1/1 md:basis-1/3 lg:basis-1/4">
-              <div className="p-1">
+              <div className="">
                 <Card className="">
                   <CardContent className="flex py-3 aspect-square items-center justify-center ">
                     <Image src={image} alt={`Product ${index + 1}`} className="w-screen object-cover rounded-sm" isZoomed />
