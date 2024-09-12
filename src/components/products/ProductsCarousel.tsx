@@ -21,8 +21,8 @@ const images = [
 
 export function ProductsCarousel() {
   return (
-    <div className="grid place-items-center h-full bg-white">
-      <Carousel opts={{ align: "start", }} className="bg-black px-2 w-52 md:w-full lg:w-full h-full max-w-lg">
+    <div className="grid place-items-center h-full ">
+      <Carousel opts={{ align: "start", }} className=" px-2 w-52 md:w-full lg:w-full h-full max-w-lg">
         <CarouselContent>
           {images.map((image, index) => (
             <CarouselItem key={index} className="w-52 basis-1/1 md:basis-1/3 lg:basis-1/4">
