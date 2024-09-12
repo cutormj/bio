@@ -11,7 +11,7 @@ function UserHero() {
         backgroundPosition: 'center',
       }}
     >
-      <div className="absolute top-0 right-0 bottom-0 left-0 bg-gradient-to-t from-primary via-transparent to-transparent z-10"></div>
+      <div className="absolute top-0 right-0 bottom-0 left-0 bg-gradient-to-t from-bgPrimary via-transparent to-transparent z-10"></div>
 
       <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center relative z-20">
         <div className="grid place-items-center lg:max-w-lg lg:w-full md:w-1/2 w-1/3 mb-10 md:mb-0">

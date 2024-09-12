@@ -24,10 +24,10 @@
 
 @layer base {
   :root {
-    --color-primary: #000000;
+    /* --color-primary: #000000;
     --color-secondary: #3b3b3b;
     --color-text-base:  #bdbdbd;
-    --color-bg-primary:  #ffffff;
+    --color-bg-primary:  #ffffff; */
     --background: 0 0% 100%;
     --foreground: 0 0% 3.9%;
     --card: 0 0% 100%;
@@ -80,6 +80,13 @@
     --chart-4: 280 65% 60%;
     --chart-5: 340 75% 55%;
   }
+}
+
+.theme-default {
+    --color-primary: #000000;
+    --color-secondary: #3b3b3b;
+    --color-text-base:  #bdbdbd;
+    --color-bg-primary:  #a5a4a4;
 }
 
 .theme-joke {
