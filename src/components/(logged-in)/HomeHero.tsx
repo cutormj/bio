@@ -13,7 +13,7 @@ const HomeHero: React.FC<{ user: User }> = ({ user }) => {
     <header className="bg-cover bg-center body-font relative" style={{ backgroundImage: 'url("https://nextui-docs-v2.vercel.app/images/hero-card-complete.jpeg")' }}>
     <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
       {/* Background Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-b from-transparent to-primary opacity-100 pointer-events-none"></div>
+      <div className="absolute inset-0 bg-gradient-to-b from-transparent to-bgPrimary opacity-100 pointer-events-none"></div>
   
       {/* Image */}
       <div className="grid place-items-center shadow-lg lg:max-w-lg lg:w-full md:w-1/2 w-1/3 mb-10 md:mb-0">
@@ -26,7 +26,7 @@ const HomeHero: React.FC<{ user: User }> = ({ user }) => {
   
       {/* Text Content */}
       <div className=" lg:flex-grow md:w-1/2 lg:pl-0 md:pl-6 flex flex-col md:items-start md:text-left items-center text-center relative z-10">
-        <h1 className="title-font sm:text-4xl mb-4 font-medium text-white lg:text-4xl md:text-3xl text-2xl">
+        <h1 className="title-font sm:text-4xl mb-4 font-medium text-primary lg:text-4xl md:text-3xl text-2xl">
           Mark Joseph
         </h1>
         <p className="mb-8 leading-relaxed text-bgPrimary">
@@ -54,7 +54,6 @@ const HomeHero: React.FC<{ user: User }> = ({ user }) => {
     </div>
   </header>
   
-
   )
 }
 
