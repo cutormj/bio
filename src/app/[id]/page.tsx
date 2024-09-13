@@ -10,10 +10,10 @@ async function page({params}: {params: {id: string}}) {
   const user = await getUserByUsername(params.id); 
   console.log("HERE IS THE USER!!",user);
   return (
-    <div className="theme-maink">
+    <div className="theme-cool">
       <div className="bg-bgPrimary">
         {/* <HomeNavBar user={user}/> */}
-        <HomeHero />
+        <HomeHero user={user} />
       </div>
     </div>
   )
