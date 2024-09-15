@@ -6,6 +6,7 @@ import React from 'react'
 import HomeNavBar from "@/components/(logged-in)/HomeNavBar";
 import { Carousel } from "@/components/ui/carousel";
 import { ProductsCarousel } from "@/components/products/ProductsCarousel";
+import { FunFacts } from "@/components/FunFacts";
 
 async function page({params}: {params: {id: string}}) {
 
@@ -17,6 +18,7 @@ async function page({params}: {params: {id: string}}) {
         {/* <HomeNavBar user={user}/> */}
         <HomeHero user={user} />
         <ProductsCarousel />
+        <FunFacts />
       </div>
     </div>
   )

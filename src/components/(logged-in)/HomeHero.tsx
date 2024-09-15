@@ -26,10 +26,10 @@ const HomeHero: React.FC<{ user: User }> = ({ user }) => {
   
       {/* Text Content */}
       <div className=" lg:flex-grow md:w-1/2 lg:pl-0 md:pl-6 flex flex-col md:items-start md:text-left items-center text-center relative z-10">
-        <h1 className="title-font sm:text-4xl mb-4 font-medium text-secondary lg:text-4xl md:text-3xl text-2xl">
+        <h1 className="title-font sm:text-4xl mb-1 font-medium text-secondary lg:text-4xl md:text-3xl text-2xl">
           Mark Joseph
         </h1>
-        <p className="mb-8 leading-relaxed text-tBase">
+        <p className="mb-8 leading-relaxed text-bgPrimary">
           Pambansang Raketero
         </p>
         <div className="flex justify-center">
