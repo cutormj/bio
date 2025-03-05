@@ -16,7 +16,6 @@ import {
 } from "@nextui-org/dropdown"
 import {Link} from "@nextui-org/link";
 import {Avatar, AvatarGroup, AvatarIcon} from "@nextui-org/avatar";
-import Logout from "./Logout";
 
 interface User {
   name: string;
@@ -24,31 +23,13 @@ interface User {
   image: string;
 }
 
-const NavBar: React.FC<{ user: User }> = ({ user }) => {
+const HomeNavBar: React.FC<{ user: User }> = ({ user }) => {
   return (
-    <Navbar>
+    <Navbar className="bg-bgPrimary">
       <NavbarBrand>
         {/* <AcmeLogo /> */}
-        <p className="font-bold text-primary">Bio</p>
+        {/* <p className="font-bold text-primary">Bio</p> */}
       </NavbarBrand>
-
-      {/* <NavbarContent className="hidden sm:flex gap-4" justify="center">
-        <NavbarItem>
-          <Link color="foreground" href="#">
-            Features
-          </Link>
-        </NavbarItem>
-        <NavbarItem isActive>
-          <Link href="#" aria-current="page" color="secondary">
-            Customers
-          </Link>
-        </NavbarItem>
-        <NavbarItem>
-          <Link color="foreground" href="#">
-            Integrations
-          </Link>
-        </NavbarItem>
-      </NavbarContent> */}
 
       <NavbarContent as="div" justify="end">
         <Dropdown placement="bottom-end">
@@ -75,7 +56,6 @@ const NavBar: React.FC<{ user: User }> = ({ user }) => {
             <DropdownItem key="configurations">Configurations</DropdownItem>
             <DropdownItem key="help_and_feedback">Help & Feedback</DropdownItem>
             <DropdownItem key="logout" color="danger">
-              <Logout/>
             </DropdownItem>
           </DropdownMenu>
         </Dropdown>
@@ -85,4 +65,4 @@ const NavBar: React.FC<{ user: User }> = ({ user }) => {
 }
 
 
-export default NavBar;
+export default HomeNavBar;
